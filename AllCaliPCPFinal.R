@@ -43,31 +43,31 @@ write.table(modelcaliPCP2, file = "AllCaliPCPNew.csv", sep = ",", row.names = FA
 
 ###Accquire the data for the specific climate division
 
-#ClimDiv1
+#Climate Division 1
 ClimDiv1<-subset(modelcaliPCP2,Div == "01",select=State:Precipitation)
 ClimDiv1 <- ClimDiv1[order(ClimDiv1$Date),]
 
-#ClimDiv2
+#Climate Division 2
 ClimDiv2<-subset(modelcaliPCP2,Div == "02",select=State:Precipitation)
 ClimDiv2 <- ClimDiv2[order(ClimDiv2$Date),]
 
-#ClimDiv3
+#Climate Division 3
 ClimDiv3<-subset(modelcaliPCP2,Div == "03",select=State:Precipitation)
 ClimDiv3 <- ClimDiv3[order(ClimDiv3$Date),]
 
-#ClimDiv4
+#Climate Division 4
 ClimDiv4<-subset(modelcaliPCP2,Div == "04",select=State:Precipitation)
 ClimDiv4 <- ClimDiv4[order(ClimDiv4$Date),]
 
-#ClimDiv5
+#Climate Division 5
 ClimDiv5<-subset(modelcaliPCP2,Div == "05",select=State:Precipitation)
 ClimDiv5 <- ClimDiv5[order(ClimDiv5$Date),]
 
-#ClimDiv6
+#Climate Division 6
 ClimDiv6<-subset(modelcaliPCP2,Div == "06",select=State:Precipitation)
 ClimDiv6 <- ClimDiv6[order(ClimDiv6$Date),]
 
-#ClimDiv7
+#Climate Division 7
 ClimDiv7<-subset(modelcaliPCP2,Div == "07",select=State:Precipitation)
 ClimDiv7 <- ClimDiv7[order(ClimDiv7$Date),]
 
