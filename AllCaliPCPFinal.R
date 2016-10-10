@@ -72,7 +72,7 @@ ClimDiv7<-subset(modelcaliPCP2,Div == "07",select=State:Precipitation)
 ClimDiv7 <- ClimDiv7[order(ClimDiv7$Date),]
 
 
-### zClimate Divison 1 Plots
+### Climate Divison 1 Plots
 
 # read guage data
 monthlyD1 <- ClimDiv1
